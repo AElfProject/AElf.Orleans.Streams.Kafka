@@ -37,7 +37,8 @@ namespace Orleans.Streams.Kafka.Config
 				SecurityProtocol = (Confluent.Kafka.SecurityProtocol)(int)options.SecurityProtocol,
 				SslCaLocation = options.SslCaLocation,
 				SaslUsername = options.SaslUserName,
-				SaslPassword = options.SaslPassword
+				SaslPassword = options.SaslPassword,
+				MessageMaxBytes = options.MessageMaxBytes
 			};
 	}
 

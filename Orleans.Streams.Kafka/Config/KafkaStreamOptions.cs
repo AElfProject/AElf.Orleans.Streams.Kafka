@@ -24,6 +24,8 @@ namespace Orleans.Streams.Kafka.Config
 		public bool MessageTrackingEnabled { get; set; }
 		public bool ImportRequestContext { get; set; } = false;
 
+		public int MessageMaxBytes { get; set; } = 104857600;
+
 		/// <summary>
 		/// Add a new internal topic.
 		/// </summary>
