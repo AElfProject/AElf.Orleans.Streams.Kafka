@@ -6,6 +6,7 @@
     <PackageId>AElf.Orleans.Streams.Kafka</PackageId>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <LangVersion>10</LangVersion>
+    <RootNamespace>Orleans.Streams.Kafka</RootNamespace>
   </PropertyGroup>
   <!-- vendor packages -->
   <ItemGroup>

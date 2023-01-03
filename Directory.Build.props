@@ -8,7 +8,7 @@
   <PropertyGroup>
     <Authors>Jonathan Sant</Authors>
     <Company>Sucrose</Company>
-    <RepositoryUrl>https://github.com/jonathansant/Orleans.Streams.Kafka</RepositoryUrl>
+    <RepositoryUrl>https://github.com/jonathansant/AElf.Orleans.Streams.Kafka</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 

@@ -18,7 +18,7 @@ namespace Orleans.Streams.Kafka.E2E.Grains
 	{
 		private static Random Rand = new Random();
 
-		public static Schema _SCHEMA = Schema.Parse("{\"type\":\"record\",\"name\":\"TestModelAvro\",\"namespace\":\"Orleans.Streams.Kafka.E2E.Gr" +
+		public static Schema _SCHEMA = Schema.Parse("{\"type\":\"record\",\"name\":\"TestModelAvro\",\"namespace\":\"AElf.Orleans.Streams.Kafka.E2E.Gr" +
 				"ains\",\"fields\":[{\"name\":\"numberOfLegs\",\"type\":\"int\"},{\"name\":\"numberOfHeads\",\"ty" +
 				"pe\":\"int\"},{\"name\":\"isLastMessage\",\"type\":\"boolean\"}]}");
 		private int _numberOfLegs;

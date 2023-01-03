@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\Orleans.Streams.Utils\Orleans.Streams.Utils\Orleans.Streams.Utils.csproj" />
-    <ProjectReference Include="..\..\Orleans.Streams.Kafka\Orleans.Streams.Kafka.csproj" />
+    <ProjectReference Include="..\..\AElf.Orleans.Streams.Kafka\AElf.Orleans.Streams.Kafka.csproj" />
   </ItemGroup>
 
 </Project>
